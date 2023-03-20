@@ -25,6 +25,4 @@ replay_pid*
 
 .idea/
 *.iml
-out
-gen
 Compile_Test/
