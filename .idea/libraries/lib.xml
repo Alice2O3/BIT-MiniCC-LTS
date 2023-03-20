@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/BITMiniCC_20200404_obf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/antlr-4.8-complete.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxen-1.1-beta-6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jython.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jdom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Mars4_5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Rars.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
