@@ -1,0 +1,16 @@
+func &main() i32{
+var %a i32
+var %b i32
+var %c i32
+dassign %2(constval i32 0)
+dassign %a(regread i32 %2)
+dassign %4(constval i32 1)
+dassign %b(regread i32 %4)
+dassign %6(
+	add i32(dread i32 %a,dread i32 %b))
+dassign %7(regread i32 %6)
+dassign %c(regread i32 %7)
+call Mars_PrintInt(dread i32 %c)
+dassign %8(constval i32 0)
+return (regread i32 %8)}
+

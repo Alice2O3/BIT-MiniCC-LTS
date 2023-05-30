@@ -1,36 +1,24 @@
-# BIT-MiniCC
-BIT Mini C Compiler is a C compiler framework in Java for teaching.
+# BIT-MiniCC-LTS
 
-# Building & Running
-## Requirements
-* JDK 1.8 or higher
-* Eclipse Mars
+The IDEA and LTS version of BIT-MiniCC.
 
-## Building & Running
-1. Import the project into Eclipse
-2. Set the input source file
-3. run as Java applications from class BitMiniCC
+## How to run in VS 2019
 
-# Supported targets
-1. ARM 
-2. x86
-3. MIPS
-4. RISC-V
+1. Copy the code from generated x86 `.asm` file into `VS_Project` directory.
 
+2. Replace the lines:
 
-# Lab. projects
-1. Lexical Analysis: input(C code), output(tokens in JSON)
-2. Syntactic Analysis: input(tokens in JSON), output(AST in JSON)
-3. Semantic Analysis: input(AST in JSON), output(errors)
-4. IR Generation: input(AST in JSON), output(IR)
-5. Target Code Generation: input(AST in JSON), output(x86/MIPS/RISC-V assembly)
+```asm
+includelib msvcrt.lib
+includelib user32.lib
+includelib kernel32.lib
+```
 
-# Correspondence
-* Weixing Ji (jwx@bit.edu.cn) 
+Into:
 
-# Contributor
-* 2020: Hang Li
-* 2019: Chensheng Yu, Yueyan Zhao
-* 2017: Yu Hao
-* 2016: Shuofu Ning
-* 2015: YiFan Wu
+```asm
+includelib ucrt.lib
+includelib legacy_stdio_definitions.lib
+```
+
+3. Open `ASM-Project.sln` in `VS_Project` directory and switch run configuation into `x86`, and you are done :)

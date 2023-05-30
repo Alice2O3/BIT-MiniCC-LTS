@@ -23,9 +23,9 @@ public class MiniCCCfg {
 	public static String MINICC_OPT_OUTPUT_EXT = ".ic2.xml";//瀹炴柦甯搁噺鍚堝苟绛変唬鐮佷紭鍖�
 	// input and output for MiniCCCodeGen
 	public static String MINICC_CODEGEN_INPUT_EXT = ".ic2.xml";//涓棿浠ｇ爜
-	public static String MINICC_CODEGEN_OUTPUT_EXT = ".code.s";//鐢熸垚x86鎴栬�匨IPS姹囩紪浠ｇ爜
+	public static String MINICC_CODEGEN_OUTPUT_EXT = ".code.asm";//鐢熸垚x86鎴栬�匨IPS姹囩紪浠ｇ爜
 	// input and output for simulator
-	public static String MINICC_ASSEMBLER_INPUT_EXT = ".code.s";//鐩爣浠ｇ爜
+	public static String MINICC_ASSEMBLER_INPUT_EXT = ".code.asm";//鐩爣浠ｇ爜
 	
 	//structure for config.xml
 	public String type;
