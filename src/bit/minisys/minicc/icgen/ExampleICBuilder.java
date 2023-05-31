@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.Map;
 
 import bit.minisys.minicc.parser.ast.*;
-// 一个简单样例，只实现了加法
+
 public class ExampleICBuilder implements ASTVisitor{
 
-	private Map<ASTNode, ASTNode> map;				// 使用map存储子节点的返回值，key对应子节点，value对应返回值，value目前类别包括ASTIdentifier,ASTIntegerConstant,TemportaryValue...
-	private List<Quat> quats;						// 生成的四元式列表
-	private Integer tmpId;							// 临时变量编号
+	private Map<ASTNode, ASTNode> map;
+	private List<Quat> quats;
+	private Integer tmpId;
 	public ExampleICBuilder() {
 		map = new HashMap<ASTNode, ASTNode>();
 		quats = new LinkedList<Quat>();

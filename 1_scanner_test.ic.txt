@@ -2,15 +2,135 @@ func &main() i32{
 var %a i32
 var %b i32
 var %c i32
-dassign %2(constval i32 0)
+var %d i32
+var %e i32
+var %f i32
+var %g i32
+var %h i32
+var %i i32
+var %j i32
+var %k i32
+var %l i32
+dassign %2(constval i32 1)
 dassign %a(regread i32 %2)
-dassign %4(constval i32 1)
+dassign %4(constval i32 2)
 dassign %b(regread i32 %4)
-dassign %6(
+dassign %6(constval i32 3)
+dassign %c(regread i32 %6)
+dassign %8(constval i32 4)
+dassign %d(regread i32 %8)
+dassign %10(constval i32 5)
+dassign %e(regread i32 %10)
+dassign %12(constval i32 6)
+dassign %f(regread i32 %12)
+dassign %14(constval i32 7)
+dassign %g(regread i32 %14)
+dassign %16(constval i32 8)
+dassign %h(regread i32 %16)
+dassign %18(constval i32 9)
+dassign %i(regread i32 %18)
+dassign %20(constval i32 10)
+dassign %j(regread i32 %20)
+dassign %22(constval i32 11)
+dassign %k(regread i32 %22)
+dassign %24(constval i32 12)
+dassign %l(regread i32 %24)
+var %a i32
+var %b i32
+var %c i32
+var %d i32
+var %e i32
+var %f i32
+var %g i32
+var %h i32
+var %i i32
+var %j i32
+var %k i32
+var %l i32
+var %m i32
+dassign %26(constval i32 1)
+dassign %a(regread i32 %26)
+dassign %28(constval i32 2)
+dassign %b(regread i32 %28)
+dassign %30(constval i32 3)
+dassign %c(regread i32 %30)
+dassign %32(constval i32 4)
+dassign %d(regread i32 %32)
+dassign %34(constval i32 5)
+dassign %e(regread i32 %34)
+dassign %36(constval i32 6)
+dassign %f(regread i32 %36)
+dassign %38(constval i32 7)
+dassign %g(regread i32 %38)
+dassign %40(constval i32 8)
+dassign %h(regread i32 %40)
+dassign %42(constval i32 9)
+dassign %i(regread i32 %42)
+dassign %44(constval i32 10)
+dassign %j(regread i32 %44)
+dassign %46(constval i32 11)
+dassign %k(regread i32 %46)
+dassign %48(constval i32 12)
+dassign %l(regread i32 %48)
+dassign %50(
 	add i32(dread i32 %a,dread i32 %b))
-dassign %7(regread i32 %6)
-dassign %c(regread i32 %7)
+dassign %51(regread i32 %50)
+dassign %52(
+	add i32(regread i32 %51,dread i32 %c))
+dassign %53(regread i32 %52)
+dassign %54(
+	add i32(regread i32 %53,dread i32 %d))
+dassign %55(regread i32 %54)
+dassign %56(
+	add i32(regread i32 %55,dread i32 %e))
+dassign %57(regread i32 %56)
+dassign %58(
+	add i32(regread i32 %57,dread i32 %f))
+dassign %59(regread i32 %58)
+dassign %60(
+	add i32(regread i32 %59,dread i32 %g))
+dassign %61(regread i32 %60)
+dassign %62(
+	add i32(regread i32 %61,dread i32 %h))
+dassign %63(regread i32 %62)
+dassign %64(
+	add i32(regread i32 %63,dread i32 %i))
+dassign %65(regread i32 %64)
+dassign %66(
+	add i32(regread i32 %65,dread i32 %j))
+dassign %67(regread i32 %66)
+dassign %68(
+	add i32(regread i32 %67,dread i32 %k))
+dassign %69(regread i32 %68)
+dassign %70(
+	add i32(regread i32 %69,dread i32 %l))
+dassign %71(regread i32 %70)
+dassign %m(regread i32 %71)
+call Mars_PrintInt(dread i32 %a)
+call Mars_PrintInt(dread i32 %b)
 call Mars_PrintInt(dread i32 %c)
-dassign %8(constval i32 0)
-return (regread i32 %8)}
+call Mars_PrintInt(dread i32 %d)
+call Mars_PrintInt(dread i32 %e)
+call Mars_PrintInt(dread i32 %f)
+call Mars_PrintInt(dread i32 %g)
+call Mars_PrintInt(dread i32 %h)
+call Mars_PrintInt(dread i32 %i)
+call Mars_PrintInt(dread i32 %j)
+call Mars_PrintInt(dread i32 %k)
+call Mars_PrintInt(dread i32 %l)
+call Mars_PrintInt(dread i32 %m)
+call Mars_PrintInt(dread i32 %a)
+call Mars_PrintInt(dread i32 %b)
+call Mars_PrintInt(dread i32 %c)
+call Mars_PrintInt(dread i32 %d)
+call Mars_PrintInt(dread i32 %e)
+call Mars_PrintInt(dread i32 %f)
+call Mars_PrintInt(dread i32 %g)
+call Mars_PrintInt(dread i32 %h)
+call Mars_PrintInt(dread i32 %i)
+call Mars_PrintInt(dread i32 %j)
+call Mars_PrintInt(dread i32 %k)
+call Mars_PrintInt(dread i32 %l)
+dassign %72(constval i32 0)
+return (regread i32 %72)}
 

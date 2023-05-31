@@ -3,7 +3,6 @@ package bit.minisys.minicc.icgen;
 import bit.minisys.minicc.parser.ast.ASTNode;
 import bit.minisys.minicc.parser.ast.ASTVisitor;
 
-// 临时变量
 public class TemporaryValue extends ASTNode{
 
 	private Integer id;
